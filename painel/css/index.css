@@ -1,0 +1,78 @@
+.menuMobile{
+    display: none;
+}
+
+
+.textareaAll {
+    resize: none;
+    width: 100%;
+    height: 280px;
+}
+.logo {
+    width: 90%;
+    height: 87%;
+    margin-left: 4%;
+}
+
+.tituloLocal {
+    color: cadetblue;
+    font-size: 25pt;
+    padding: 5px;
+    margin: 3px;
+}
+
+
+tabs {
+    background-color: black;
+}
+li {
+    background-color: cadetblue!important;
+}
+
+a {
+    color: white!important;
+}
+
+a:hover {
+    color: black!important;
+}
+
+.liOption {
+    border-radius: 0px 0px 10px 0px;
+}
+
+.file {
+    color:white;
+    background-color: cadetblue;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+textarea {
+    resize: none;
+    width: 70%;
+    height: 40%;
+}
+
+.divCadastro {
+    border: 1px solid gray;
+    text-align: center!important;
+}
+
+@media only screen and (max-width: 600px){
+    .menuWeb {
+        display: none;
+    }
+    
+    .menuMobile{
+        display: block;
+    }
+    
+    textarea {
+        resize: none;
+        width: 100%;
+        height: 40%;
+    }
+}
+
+
